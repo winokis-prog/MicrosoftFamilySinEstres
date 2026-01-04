@@ -1,0 +1,569 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Microsoft Family Sin Estrés — Configura el control parental sin frustración</title>
+  <meta name="description" content="Te ayudamos a configurar Microsoft Family con el método de 2 perfiles (Recreo + Estudio) para poner límites sin peleas, ahorrar tiempo y recuperar el control." />
+
+  <!-- TailwindCSS CDN (requisito) -->
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <style>
+    html { scroll-behavior: smooth; }
+  </style>
+</head>
+
+<body class="bg-slate-950 text-slate-100 antialiased">
+  <!-- Top bar -->
+  <header class="sticky top-0 z-50 backdrop-blur border-b border-white/10 bg-slate-950/70">
+    <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+      <div class="flex h-16 items-center justify-between">
+        <a href="#" class="flex items-center gap-2">
+          <span class="inline-flex h-9 w-9 items-center justify-center rounded-xl bg-white/10 ring-1 ring-white/15">
+            <svg viewBox="0 0 24 24" class="h-5 w-5" fill="none" stroke="currentColor" stroke-width="1.8">
+              <path d="M12 3l8 4v6c0 5-3.5 8-8 8s-8-3-8-8V7l8-4z"/>
+              <path d="M9.5 12l1.7 1.7L15 9.9"/>
+            </svg>
+          </span>
+          <div class="leading-tight">
+            <div class="font-semibold tracking-tight">Microsoft Family Sin Estrés</div>
+            <div class="text-xs text-slate-300">Método 2 perfiles · Recreo + Estudio</div>
+          </div>
+        </a>
+
+        <nav class="hidden md:flex items-center gap-8 text-sm text-slate-200">
+          <a href="#como-funciona" class="hover:text-white">Cómo funciona</a>
+          <a href="#beneficios" class="hover:text-white">Beneficios</a>
+          <a href="#metodo" class="hover:text-white">El método</a>
+          <a href="#faq" class="hover:text-white">FAQ</a>
+          <a href="#contacto" class="hover:text-white">Contacto</a>
+        </nav>
+
+        <div class="flex items-center gap-3">
+          <a href="#contacto"
+             class="hidden sm:inline-flex items-center justify-center rounded-xl bg-white px-4 py-2 text-sm font-semibold text-slate-950 hover:bg-slate-100">
+            Quiero configurarlo
+          </a>
+          <a href="#contacto"
+             class="inline-flex md:hidden items-center justify-center rounded-xl bg-white/10 px-3 py-2 text-sm font-semibold hover:bg-white/15 ring-1 ring-white/15">
+            CTA
+          </a>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- HERO -->
+  <section class="relative overflow-hidden">
+    <!-- Background image (provided earlier) -->
+    <div class="absolute inset-0">
+      <img
+        src="https://1drv.ms/i/c/aabdc31eac164430/IQAgA8878fzpQo6xkpKyKTojAeQrt7uveUn96R7bDvoaxi4?e=WEfAL7"
+        alt="Fondo Microsoft Family Sin Estrés"
+        class="h-full w-full object-cover opacity-25"
+      />
+      <div class="absolute inset-0 bg-gradient-to-b from-slate-950/40 via-slate-950/80 to-slate-950"></div>
+    </div>
+
+    <!-- Decorative blobs -->
+    <div class="absolute -top-24 left-1/2 -translate-x-1/2 h-[520px] w-[520px] rounded-full bg-fuchsia-500/15 blur-3xl"></div>
+    <div class="absolute -bottom-24 right-0 h-[520px] w-[520px] rounded-full bg-cyan-400/10 blur-3xl"></div>
+
+    <div class="relative mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 pt-14 pb-16 sm:pt-20 sm:pb-20">
+      <div class="grid lg:grid-cols-2 gap-10 items-center">
+        <div>
+          <div class="inline-flex items-center gap-2 rounded-full bg-white/10 px-3 py-1 text-xs text-slate-200 ring-1 ring-white/15">
+            <span class="h-1.5 w-1.5 rounded-full bg-emerald-400"></span>
+            Configuración guiada · Remota · Sin tecnicismos
+          </div>
+
+          <h1 class="mt-5 text-4xl sm:text-5xl font-extrabold tracking-tight">
+            Configura <span class="text-white">Microsoft Family</span> sin estrés
+            <span class="block text-slate-300 mt-2 text-2xl sm:text-3xl font-semibold">
+              y pon límites sin peleas en casa
+            </span>
+          </h1>
+
+          <p class="mt-5 text-base sm:text-lg text-slate-200 leading-relaxed">
+            Deja de dudar si “lo hiciste mal”. Te ayudamos a usar Microsoft Family con un enfoque simple y realista:
+            <span class="font-semibold text-white">2 perfiles</span> (Recreo + Estudio) para que el control parental sea
+            <span class="font-semibold text-white">claro, educativo</span> y fácil de mantener.
+          </p>
+
+          <div class="mt-8 flex flex-col sm:flex-row gap-3">
+            <a href="#contacto"
+               class="inline-flex items-center justify-center rounded-xl bg-white px-5 py-3 text-sm font-semibold text-slate-950 hover:bg-slate-100">
+              Quiero ayuda para configurarlo
+              <svg class="ml-2 h-4 w-4" viewBox="0 0 20 20" fill="currentColor">
+                <path fill-rule="evenodd" d="M10.293 15.707a1 1 0 010-1.414L13.586 11H4a1 1 0 110-2h9.586l-3.293-3.293a1 1 0 111.414-1.414l5 5a1 1 0 010 1.414l-5 5a1 1 0 01-1.414 0z" clip-rule="evenodd"/>
+              </svg>
+            </a>
+
+            <a href="#metodo"
+               class="inline-flex items-center justify-center rounded-xl bg-white/10 px-5 py-3 text-sm font-semibold hover:bg-white/15 ring-1 ring-white/15">
+              Ver el método 2 perfiles
+            </a>
+          </div>
+
+          <div class="mt-8 grid grid-cols-1 sm:grid-cols-3 gap-4">
+            <div class="rounded-2xl bg-white/5 p-4 ring-1 ring-white/10">
+              <div class="text-sm font-semibold text-white">Menos discusiones</div>
+              <div class="mt-1 text-xs text-slate-300">Los límites se cumplen según lo pactado.</div>
+            </div>
+            <div class="rounded-2xl bg-white/5 p-4 ring-1 ring-white/10">
+              <div class="text-sm font-semibold text-white">Más control real</div>
+              <div class="mt-1 text-xs text-slate-300">Tiempo + reportes útiles para educar.</div>
+            </div>
+            <div class="rounded-2xl bg-white/5 p-4 ring-1 ring-white/10">
+              <div class="text-sm font-semibold text-white">Sin tecnicismos</div>
+              <div class="mt-1 text-xs text-slate-300">Lo dejamos listo y te enseñamos lo esencial.</div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Right card -->
+        <div class="lg:justify-self-end">
+          <div class="relative rounded-3xl bg-white/5 ring-1 ring-white/10 overflow-hidden">
+            <div class="p-6 sm:p-8">
+              <div class="flex items-start justify-between gap-4">
+                <div>
+                  <h2 class="text-lg font-semibold text-white">¿Qué obtienes?</h2>
+                  <p class="mt-1 text-sm text-slate-300">
+                    Configuración clara + método probado para usar Microsoft Family sin frustración.
+                  </p>
+                </div>
+                <span class="inline-flex items-center rounded-full bg-emerald-400/15 px-3 py-1 text-xs text-emerald-200 ring-1 ring-emerald-400/20">
+                  Método 2 perfiles
+                </span>
+              </div>
+
+              <ul class="mt-6 space-y-3 text-sm text-slate-200">
+                <li class="flex gap-3">
+                  <span class="mt-0.5 inline-flex h-5 w-5 items-center justify-center rounded-full bg-white/10 ring-1 ring-white/15">✓</span>
+                  Perfil <b>Recreo</b>: control de tiempo + sesiones desde el móvil (sin líos).
+                </li>
+                <li class="flex gap-3">
+                  <span class="mt-0.5 inline-flex h-5 w-5 items-center justify-center rounded-full bg-white/10 ring-1 ring-white/15">✓</span>
+                  Perfil <b>Estudio</b>: Edge + webs permitidas/bloqueadas + apps educativas.
+                </li>
+                <li class="flex gap-3">
+                  <span class="mt-0.5 inline-flex h-5 w-5 items-center justify-center rounded-full bg-white/10 ring-1 ring-white/15">✓</span>
+                  Te explicamos <b>limitaciones reales</b> para evitar falsa seguridad.
+                </li>
+                <li class="flex gap-3">
+                  <span class="mt-0.5 inline-flex h-5 w-5 items-center justify-center rounded-full bg-white/10 ring-1 ring-white/15">✓</span>
+                  Checklist para revisar reportes y ajustar sin perder horas.
+                </li>
+              </ul>
+
+              <div class="mt-7 grid grid-cols-2 gap-3">
+                <div class="rounded-2xl bg-white/5 p-4 ring-1 ring-white/10">
+                  <div class="text-xs text-slate-300">Duración típica</div>
+                  <div class="mt-1 text-lg font-semibold text-white">30–45 min</div>
+                </div>
+                <div class="rounded-2xl bg-white/5 p-4 ring-1 ring-white/10">
+                  <div class="text-xs text-slate-300">Formato</div>
+                  <div class="mt-1 text-lg font-semibold text-white">Remoto guiado</div>
+                </div>
+              </div>
+
+              <a href="#contacto"
+                 class="mt-6 inline-flex w-full items-center justify-center rounded-2xl bg-white px-5 py-3 text-sm font-semibold text-slate-950 hover:bg-slate-100">
+                Reservar ayuda de configuración
+              </a>
+
+              <p class="mt-3 text-xs text-slate-400">
+                *No prometemos perfección: prometemos claridad, acompañamiento y un método práctico que reduce el conflicto.
+              </p>
+            </div>
+
+            <div class="h-2 bg-gradient-to-r from-cyan-400/60 via-fuchsia-500/60 to-emerald-400/60"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- NUEVA SECCIÓN IMAGEN (actualizada con tu URL) -->
+  <section class="py-14 sm:py-16 border-t border-white/10 bg-slate-950">
+    <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+      <div class="grid lg:grid-cols-2 gap-8 items-center">
+        <div class="rounded-3xl overflow-hidden ring-1 ring-white/10 bg-white/5">
+          <img
+            src="https://pikaso.cdnpk.net/private/production/2980682846/render.png?preview=true&token=exp=1767607129~hmac=68a703009cf8967dca6fc4583c9810c56605000b30b99fd3e97effb4e9e0d472&size=300"
+            alt="Padre feliz aplicando límites digitales"
+            class="h-72 w-full object-cover"
+            loading="lazy"
+          />
+        </div>
+        <div>
+          <h2 class="text-2xl sm:text-3xl font-bold tracking-tight text-white">Menos discusiones. Más acuerdos.</h2>
+          <p class="mt-3 text-slate-300 leading-relaxed">
+            A veces el “control parental” se convierte en peleas: tú dices “apaga ya”, tu hijo no cumple,
+            y acabáis los dos frustrados.
+          </p>
+          <p class="mt-3 text-slate-300 leading-relaxed">
+            Con <span class="font-semibold text-white">Microsoft Family Sin Estrés</span> el límite se define antes.
+            Cuando el tiempo termina, <span class="font-semibold text-white">la sesión se cierra según lo pactado</span>.
+            El niño puede enfadarse (normal), pero aprende a aceptar acuerdos y a pedir tiempo con responsabilidad.
+            Tú recuperas calma y coherencia.
+          </p>
+          <div class="mt-6 flex flex-col sm:flex-row gap-3">
+            <a href="#contacto"
+              class="inline-flex items-center justify-center rounded-xl bg-white px-5 py-3 text-sm font-semibold text-slate-950 hover:bg-slate-100">
+              Quiero configurarlo sin estrés
+            </a>
+            <a href="#metodo"
+              class="inline-flex items-center justify-center rounded-xl bg-white/10 px-5 py-3 text-sm font-semibold hover:bg-white/15 ring-1 ring-white/15">
+              Ver el método 2 perfiles
+            </a>
+          </div>
+          <p class="mt-3 text-xs text-slate-400">
+            *Si esta imagen dejara de verse, es porque su enlace tiene token temporal. Podemos cambiarla por una URL permanente o local.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- How it works -->
+  <section id="como-funciona" class="py-16 sm:py-20">
+    <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+      <div class="max-w-2xl">
+        <h2 class="text-3xl font-bold tracking-tight text-white">Cómo funciona (sin líos)</h2>
+        <p class="mt-3 text-slate-300">
+          En vez de intentar “bloquearlo todo” (y acabar frustrado), usamos Microsoft Family donde aporta más valor:
+          <b class="text-white">tiempo + información + estructura</b>.
+        </p>
+      </div>
+
+      <div class="mt-10 grid gap-6 lg:grid-cols-3">
+        <div class="rounded-3xl bg-white/5 p-6 ring-1 ring-white/10">
+          <div class="flex items-center gap-3">
+            <span class="inline-flex h-10 w-10 items-center justify-center rounded-2xl bg-white/10 ring-1 ring-white/15">1</span>
+            <h3 class="font-semibold text-white">Diagnóstico rápido</h3>
+          </div>
+          <p class="mt-3 text-sm text-slate-300">
+            Revisamos cómo está tu familia configurada y qué quieres lograr (límites, hábitos, foco en estudio).
+          </p>
+        </div>
+
+        <div class="rounded-3xl bg-white/5 p-6 ring-1 ring-white/10">
+          <div class="flex items-center gap-3">
+            <span class="inline-flex h-10 w-10 items-center justify-center rounded-2xl bg-white/10 ring-1 ring-white/15">2</span>
+            <h3 class="font-semibold text-white">Creamos 2 perfiles</h3>
+          </div>
+          <p class="mt-3 text-sm text-slate-300">
+            <b class="text-white">Recreo</b> para el control de tiempo y reportes, y <b class="text-white">Estudio</b> para navegación y recursos útiles.
+          </p>
+        </div>
+
+        <div class="rounded-3xl bg-white/5 p-6 ring-1 ring-white/10">
+          <div class="flex items-center gap-3">
+            <span class="inline-flex h-10 w-10 items-center justify-center rounded-2xl bg-white/10 ring-1 ring-white/15">3</span>
+            <h3 class="font-semibold text-white">Te quedas con el control</h3>
+          </div>
+          <p class="mt-3 text-sm text-slate-300">
+            Te enseñamos a cerrar sesiones desde el móvil, leer reportes y ajustar reglas sin perder horas.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Method section -->
+  <section id="metodo" class="py-16 sm:py-20 border-t border-white/10 bg-slate-950">
+    <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+      <div class="max-w-3xl">
+        <h2 class="text-3xl font-bold tracking-tight text-white">El Método “2 Perfiles”</h2>
+        <p class="mt-3 text-slate-300">
+          Dos contextos, dos objetivos. Así reduces complejidad y aumentas consistencia.
+        </p>
+      </div>
+
+      <div class="mt-10 grid gap-6 lg:grid-cols-2">
+        <!-- Recreo -->
+        <div class="rounded-3xl bg-white/5 p-6 sm:p-8 ring-1 ring-white/10">
+          <div class="flex items-start justify-between gap-4">
+            <div>
+              <h3 class="text-xl font-semibold text-white">Perfil 1: Recreo (Juego / Ocio)</h3>
+              <p class="mt-2 text-sm text-slate-300">
+                Aquí buscamos <b class="text-white">control de tiempo</b> y <b class="text-white">reportes</b>. Evitamos configuraciones frágiles.
+              </p>
+            </div>
+            <span class="rounded-full bg-cyan-400/15 px-3 py-1 text-xs text-cyan-200 ring-1 ring-cyan-400/20">Tiempo + reportes</span>
+          </div>
+
+          <ul class="mt-6 space-y-3 text-sm text-slate-200">
+            <li class="flex gap-3"><span class="mt-0.5 inline-flex h-5 w-5 items-center justify-center rounded-full bg-white/10 ring-1 ring-white/15">✓</span>Horas de juego diarias claras (o sesión apagada por defecto).</li>
+            <li class="flex gap-3"><span class="mt-0.5 inline-flex h-5 w-5 items-center justify-center rounded-full bg-white/10 ring-1 ring-white/15">✓</span>El niño pide tiempo → tú decides desde el móvil (sin discusiones largas).</li>
+            <li class="flex gap-3"><span class="mt-0.5 inline-flex h-5 w-5 items-center justify-center rounded-full bg-white/10 ring-1 ring-white/15">✓</span>No limitamos “todo”: priorizamos información útil para educar hábitos.</li>
+          </ul>
+        </div>
+
+        <!-- Estudio -->
+        <div class="rounded-3xl bg-white/5 p-6 sm:p-8 ring-1 ring-white/10">
+          <div class="flex items-start justify-between gap-4">
+            <div>
+              <h3 class="text-xl font-semibold text-white">Perfil 2: Estudio (Aprendizaje)</h3>
+              <p class="mt-2 text-sm text-slate-300">
+                Aquí sí ponemos estructura: <b class="text-white">Edge</b> + webs permitidas/bloqueadas + apps útiles.
+              </p>
+            </div>
+            <span class="rounded-full bg-emerald-400/15 px-3 py-1 text-xs text-emerald-200 ring-1 ring-emerald-400/20">Foco + estructura</span>
+          </div>
+
+          <ul class="mt-6 space-y-3 text-sm text-slate-200">
+            <li class="flex gap-3"><span class="mt-0.5 inline-flex h-5 w-5 items-center justify-center rounded-full bg-white/10 ring-1 ring-white/15">✓</span>Navegación con Edge para que los filtros tengan sentido.</li>
+            <li class="flex gap-3"><span class="mt-0.5 inline-flex h-5 w-5 items-center justify-center rounded-full bg-white/10 ring-1 ring-white/15">✓</span>Lista de webs permitidas + bloqueo de lo que no quieres.</li>
+            <li class="flex gap-3"><span class="mt-0.5 inline-flex h-5 w-5 items-center justify-center rounded-full bg-white/10 ring-1 ring-white/15">✓</span>Apps educativas (idiomas, programación, ajedrez, etc.) que no dependan de internet.</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="mt-10 rounded-3xl bg-white/5 p-6 sm:p-8 ring-1 ring-white/10">
+        <div class="flex flex-col md:flex-row items-start md:items-center justify-between gap-6">
+          <div>
+            <h3 class="text-lg font-semibold text-white">Transparencia total: límites del control parental</h3>
+            <p class="mt-2 text-sm text-slate-300">
+              Te explicamos qué esperar de Microsoft Family y qué no. El objetivo es evitar falsa seguridad y reducir frustración.
+            </p>
+          </div>
+          <a href="#contacto"
+             class="inline-flex items-center justify-center rounded-2xl bg-white px-5 py-3 text-sm font-semibold text-slate-950 hover:bg-slate-100">
+            Solicitar configuración
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section id="faq" class="py-16 sm:py-20 border-t border-white/10 bg-slate-950">
+    <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+      <div class="max-w-2xl">
+        <h2 class="text-3xl font-bold tracking-tight text-white">Preguntas frecuentes</h2>
+        <p class="mt-3 text-slate-300">Respuestas claras para decidir rápido.</p>
+      </div>
+
+      <div class="mt-10 grid gap-6 lg:grid-cols-2">
+        <details class="group rounded-3xl bg-white/5 p-6 ring-1 ring-white/10">
+          <summary class="cursor-pointer list-none flex items-center justify-between gap-4">
+            <span class="font-semibold text-white">¿Esto funciona si mi hijo usa Chrome?</span>
+            <span class="text-slate-300 group-open:rotate-180 transition">
+              <svg class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
+                <path fill-rule="evenodd" d="M5.23 7.21a.75.75 0 011.06.02L10 11.168l3.71-3.937a.75.75 0 111.08 1.04l-4.24 4.5a.75.75 0 01-1.08 0l-4.24-4.5a.75.75 0 01.02-1.06z" clip-rule="evenodd"/>
+              </svg>
+            </span>
+          </summary>
+          <p class="mt-3 text-sm text-slate-300">
+            En el perfil de <b class="text-white">Estudio</b> recomendamos Edge porque los filtros web son más consistentes ahí.
+            En el perfil de <b class="text-white">Recreo</b> priorizamos tiempo y reportes, con menos dependencia del navegador.
+          </p>
+        </details>
+
+        <details class="group rounded-3xl bg-white/5 p-6 ring-1 ring-white/10">
+          <summary class="cursor-pointer list-none flex items-center justify-between gap-4">
+            <span class="font-semibold text-white">¿Entráis en remoto a mi ordenador?</span>
+            <span class="text-slate-300 group-open:rotate-180 transition">
+              <svg class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
+                <path fill-rule="evenodd" d="M5.23 7.21a.75.75 0 011.06.02L10 11.168l3.71-3.937a.75.75 0 111.08 1.04l-4.24 4.5a.75.75 0 01-1.08 0l-4.24-4.5a.75.75 0 01.02-1.06z" clip-rule="evenodd"/>
+              </svg>
+            </span>
+          </summary>
+          <p class="mt-3 text-sm text-slate-300">
+            Si lo deseas, sí: hacemos la configuración <b class="text-white">con acceso puntual y supervisado</b> (tú estás presente).
+            No guardamos accesos y tú introduces contraseñas.
+          </p>
+        </details>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contacto" class="py-16 sm:py-20">
+    <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+      <div class="grid lg:grid-cols-2 gap-10 items-start">
+        <div>
+          <h2 class="text-3xl font-bold tracking-tight text-white">¿Quieres que te lo dejemos listo?</h2>
+          <p class="mt-3 text-slate-300">
+            Cuéntanos tu caso y te respondemos con el siguiente paso para configurar <b class="text-white">Recreo + Estudio</b>
+            sin frustración.
+          </p>
+
+          <div class="mt-8 space-y-4">
+            <div class="rounded-3xl bg-white/5 p-6 ring-1 ring-white/10">
+              <div class="flex items-center gap-3">
+                <span class="inline-flex h-10 w-10 items-center justify-center rounded-2xl bg-white/10 ring-1 ring-white/15">
+                  <svg viewBox="0 0 24 24" class="h-5 w-5" fill="none" stroke="currentColor" stroke-width="1.8">
+                    <path d="M4 4h16v16H4z"/>
+                    <path d="M4 7l8 6 8-6"/>
+                  </svg>
+                </span>
+                <div>
+                  <div class="text-sm font-semibold text-white">Email de contacto</div>
+                  <a class="text-sm text-slate-300 hover:text-white" href="mailto:winokis@gmail.com">winokis@gmail.com</a>
+                </div>
+              </div>
+              <p class="mt-3 text-xs text-slate-400">
+                Respuesta en horario laboral (España). Si estás en Latinoamérica, coordinamos una franja cómoda.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Form card -->
+        <div class="rounded-3xl bg-white/5 ring-1 ring-white/10 overflow-hidden">
+          <div class="p-6 sm:p-8">
+            <h3 class="text-xl font-semibold text-white">Formulario de contacto</h3>
+            <p class="mt-2 text-sm text-slate-300">
+              Rellena esto y te contestamos con la mejor forma de ayudarte.
+            </p>
+
+            <div id="formSuccess" class="hidden mt-5 rounded-2xl bg-emerald-400/10 p-4 ring-1 ring-emerald-400/20">
+              <p class="text-sm text-emerald-200 font-semibold">¡Gracias! Hemos recibido tu mensaje.</p>
+              <p class="mt-1 text-sm text-slate-200">Te responderemos lo antes posible para coordinar la configuración.</p>
+            </div>
+
+            <div id="formError" class="hidden mt-5 rounded-2xl bg-rose-500/10 p-4 ring-1 ring-rose-500/20">
+              <p class="text-sm text-rose-200 font-semibold">Ups… no se pudo enviar.</p>
+              <p class="mt-1 text-sm text-slate-200">
+                Prueba de nuevo en unos segundos o escríbenos a
+                <a class="underline hover:text-white" href="mailto:winokis@gmail.com">winokis@gmail.com</a>.
+              </p>
+            </div>
+
+            <form
+              id="contactForm"
+              class="mt-6 space-y-4"
+              action="https://formspree.io/f/xlgdwzel"
+              method="POST"
+            >
+              <input type="hidden" name="_subject" value="Nuevo contacto — Microsoft Family Sin Estrés" />
+              <input type="hidden" name="_template" value="table" />
+
+              <div class="hidden" aria-hidden="true">
+                <label for="_gotcha">No rellenar</label>
+                <input id="_gotcha" name="_gotcha" type="text" tabindex="-1" autocomplete="off" />
+              </div>
+
+              <div class="grid sm:grid-cols-2 gap-4">
+                <div>
+                  <label class="block text-sm font-medium text-slate-200" for="nombre">Nombre</label>
+                  <input id="nombre" name="nombre" required
+                         class="mt-1 w-full rounded-xl bg-slate-950/50 border border-white/10 px-4 py-3 text-sm text-white placeholder:text-slate-500 focus:outline-none focus:ring-2 focus:ring-white/30"
+                         placeholder="Tu nombre" />
+                </div>
+                <div>
+                  <label class="block text-sm font-medium text-slate-200" for="pais">País</label>
+                  <input id="pais" name="pais" required
+                         class="mt-1 w-full rounded-xl bg-slate-950/50 border border-white/10 px-4 py-3 text-sm text-white placeholder:text-slate-500 focus:outline-none focus:ring-2 focus:ring-white/30"
+                         placeholder="España / México / Colombia..." />
+                </div>
+              </div>
+
+              <div>
+                <label class="block text-sm font-medium text-slate-200" for="email">Email</label>
+                <input id="email" name="email" type="email" required
+                       class="mt-1 w-full rounded-xl bg-slate-950/50 border border-white/10 px-4 py-3 text-sm text-white placeholder:text-slate-500 focus:outline-none focus:ring-2 focus:ring-white/30"
+                       placeholder="tuemail@ejemplo.com" />
+              </div>
+
+              <div>
+                <label class="block text-sm font-medium text-slate-200" for="mensaje">Cuéntanos tu situación</label>
+                <textarea id="mensaje" name="mensaje" rows="5" required
+                          class="mt-1 w-full rounded-xl bg-slate-950/50 border border-white/10 px-4 py-3 text-sm text-white placeholder:text-slate-500 focus:outline-none focus:ring-2 focus:ring-white/30"
+                          placeholder="Ej: No se aplican los límites de tiempo, o no consigo bloquear webs en el perfil de estudio..."></textarea>
+              </div>
+
+              <input type="hidden" name="origen" value="landing-microsoft-family-sin-estres" />
+
+              <button id="submitBtn" type="submit"
+                      class="w-full rounded-2xl bg-white px-5 py-3 text-sm font-semibold text-slate-950 hover:bg-slate-100">
+                Enviar y pedir ayuda
+              </button>
+
+              <p class="text-xs text-slate-400">
+                Al enviar, aceptas que te contactemos para coordinar la configuración. No vendemos tus datos.
+              </p>
+            </form>
+          </div>
+
+          <div class="h-2 bg-gradient-to-r from-fuchsia-500/60 via-cyan-400/60 to-emerald-400/60"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="border-t border-white/10 bg-slate-950 py-10">
+    <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+      <div class="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-6">
+        <div>
+          <div class="font-semibold text-white">Microsoft Family Sin Estrés</div>
+          <div class="mt-1 text-sm text-slate-400">
+            Método 2 perfiles (Recreo + Estudio) para educar con límites sin frustración.
+          </div>
+        </div>
+
+        <div class="text-sm text-slate-300">
+          Contacto: <a class="hover:text-white" href="mailto:winokis@gmail.com">winokis@gmail.com</a>
+        </div>
+      </div>
+
+      <div class="mt-6 text-xs text-slate-500">
+        © <span id="year"></span> Microsoft Family Sin Estrés · Proyecto independiente (no afiliado a Microsoft).
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+
+    const form = document.getElementById('contactForm');
+    const successBox = document.getElementById('formSuccess');
+    const errorBox = document.getElementById('formError');
+    const submitBtn = document.getElementById('submitBtn');
+
+    form.addEventListener('submit', async (e) => {
+      e.preventDefault();
+      successBox.classList.add('hidden');
+      errorBox.classList.add('hidden');
+
+      const gotcha = form.querySelector('[name="_gotcha"]');
+      if (gotcha && gotcha.value.trim() !== "") {
+        successBox.classList.remove('hidden');
+        form.reset();
+        return;
+      }
+
+      submitBtn.disabled = true;
+      const originalText = submitBtn.textContent;
+      submitBtn.textContent = "Enviando...";
+
+      try {
+        const formData = new FormData(form);
+        const res = await fetch(form.action, {
+          method: "POST",
+          body: formData,
+          headers: { "Accept": "application/json" }
+        });
+
+        if (res.ok) {
+          successBox.classList.remove('hidden');
+          form.reset();
+          successBox.scrollIntoView({ behavior: "smooth", block: "start" });
+        } else {
+          errorBox.classList.remove('hidden');
+        }
+      } catch (err) {
+        errorBox.classList.remove('hidden');
+      } finally {
+        submitBtn.disabled = false;
+        submitBtn.textContent = originalText;
+      }
+    });
+  </script>
+</body>
+</html>
